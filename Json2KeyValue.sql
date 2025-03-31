@@ -63,3 +63,10 @@ INSERT INTO `peoplewithattributes`
 VALUES
 (2,1,'{"Fruit":"Apple","Dessert":"Pie"}'),
 (3,2,'{"Fruit":"Oranges","Car":"Honda"}');
+
+# Expected Results..
+ID	PersonID	AttrKey	    AttrValue
+0	1	        Fruit	    Apple
+0	1	        Dessert	    Pie
+1	2	        Car	        Honda
+1	2	        Fruit	    Oranges
